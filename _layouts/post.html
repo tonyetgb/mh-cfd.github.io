@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+{% include post_head.html %}
+
+<body>
+
+  <script type="text/javascript">
+    var utag_data = {
+      entity: "ANCIR",
+      language: "english",
+      language_service: "CFA English",
+      short_language_service: "ENG",
+      property_id: "600",
+      platform: "Responsive",
+      platform_short: "R",
+      runs_js: "Yes",
+      section: "Special Projects",
+      english_section: "special-projects",
+      page_title: "Misinfo",
+      page_type: "interactive",
+      page_name: "Misinfo",
+      short_headline: "Misinfo",
+      long_headline: "Misinfo | Uncovering fake news",
+      headline: "Misinfo",
+      content_type: "interactive",
+      pub_year: "2017",
+      pub_month: "10",
+      pub_day: "04",
+      pub_weekday: "W",
+      byline: "Code For Africa",
+      slug: "misinfo-africa"
+    }
+  </script>
+
+  <script type="text/javascript">
+    (function(a, b, c, d) {
+      a = '//tags.tiqcdn.com/utag/bbg/voa-nonpangea/prod/utag.js';
+      b = document;
+      c = 'script';
+      d = b.createElement(c);
+      d.src = a;
+      d.type = 'text/java' + c;
+      d.async = true;
+      a = b.getElementsByTagName(c)[0];
+      a.parentNode.insertBefore(d, a);
+    })();
+  </script>
+
+  <script>
+    // quickfix to provide parallax image to js/scripts.js as global var
+    var px_title_image = "../../../img/Landing-Page-Banner-Image.jpg";
+  </script>
+
+  <nav class="masthead navbar-fixed-top">
+    <div class="masthead-inner">
+      <div class="logo">
+        <a href="../../../index.html" title="Return to homepage">
+                    <img alt="CFA" src="../../../img/ANCIR-Logo-small.png" width="135" height="55">
+              </a>
+        <a href="../../../index.html" title="" class="hideable1">
+          <h1></h1>
+        </a>
+        <h6>Menu</h6>
+        <a class="main-nav" href="#stories">Stories</a>
+        <a class="main-nav" href="#data">Data &amp; Graphics</a>
+        <a class="main-nav" href="#contact">Get In Touch</a>
+      </div>
+      <div class="share-options">
+        <ul>
+          <li><a title="Share on Twitter" href="https://twitter.com/home?status=https%3A//codeforafrica.github.io/fakenews-microsite/main_story" onClick="MyWindow=window.open('https://twitter.com/home?status=https%3A//codeforafrica.github.io/fakenews-microsite/main_story','MyWin‌​dow','width=600,heig‌​ht=300'); return false;" class="share-tw-story"><span class="scr">Share on Twitter</span></a></li>
+          <li><a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//codeforafrica.github.io/fakenews-microsite/main_story" onClick="MyWindow=window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A//codeforafrica.github.io/fakenews-microsite/main_story','MyWin‌​dow','width=600,heig‌​ht=300'); return false;" class="share-fb-story"><span class="scr">Share on Facebook</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class='site-nav'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-12'>
+          <nav>
+            <h6>Menu</h6>
+            <a href="#" style="opacity: 1;">
+                    <span>News Updates</span></a>
+            <a href="#" style="opacity: 1;">
+                    <span>Affected Countries</span></a>
+            <a href='#' style="opacity: 1;">
+                    <span>Data & Graphics</span></a>
+            <a href="#" style="opacity: 1;">
+                    <span>Meet the Team</span></a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADING -->
+  <a name="stories" class="anchorlink"></a>
+  <div class="container">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <header id="news-articker">
+        <h3 class="news-push">THE FAKE NEWS PROPAGANDA MACHINE</h3>
+      </header>
+      <!--
+        <div class="info-center">
+          <span class="pubdate">Times Live |</span>
+          <span class="pubdate">South Africa | </span>
+          <span class="pubdate">3-8-17</span>
+        </div>
+      -->
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+
+  <!--ABOUT-->
+  <a name="about" class="anchorlink"></a>
+  <div class='container' id="story-ticker-pad">
+    <div class='row'>
+      <div class="col-sm-6 hider_1" >
+        <div class="top-story">
+          <img class="img-responsive" src="../../../img/Thumb-1.jpg">
+        </div>
+      </div>
+      <div class='col-sm-6'>
+         
+          {{content}}
+        
+      </div>
+      <div class="col-sm-6 hider" >
+        <div class="top-story">
+          <img class="img-responsive" src="../../../img/Thumb-1.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include post_footer.html %}
+
+</body>
+
+</html>
