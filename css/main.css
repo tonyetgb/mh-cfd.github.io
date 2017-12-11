@@ -48,10 +48,6 @@ img{
 }
 
 #posts ul li {
-	margin: 0px 20px 20px 0px;
-	width: 250px;
-	float: left;
-    //padding: 10px;
     background: #fff;
     background: none repeat scroll 0% 0% #FFF;
 }
