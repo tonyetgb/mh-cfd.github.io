@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Main Story
+category: blog
 tags: [Test, Ipsum, Markdown, Portfolio]
+summary: Here is a summary of the post
+image: /img/blog/Thumb-2.jpg
 ---
 
 UK PR firm Bell Pottinger’s role in the construction of the Gupta family’s propaganda empire was part of a multinational fake news scheme to hide the family’s growing enrichment at the expense of South African citizens and taxpayers. 
