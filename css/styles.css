@@ -2084,7 +2084,7 @@ th.rotate>div>span {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 479px) {
-  div.masthead-inner a.hideable1, div.masthead-inner a.hideable {
+  div.masthead-inner a.hideable1, div.masthead-inner a.hideable div.parallax-window-1{
     display: none !important;
   }
   .share-options {
