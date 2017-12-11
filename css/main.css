@@ -10,33 +10,6 @@ img, embed, object{
 	//padding : 10px;
 }
 
-body {
-	margin: 0px;
-	text-align: center;
-	padding: 0px 20px 0px 20px;
-	border-top: 4px solid #333;
-/*
-background-color: #F7F7F7;
-background-image: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/noise.png');
-background-image: url('http://cdn.elegantthemes.com/preview/Notebook/wp-content/themes/Notebook/images/body-bg.png');
-background-repeat: repeat;*/
-
-}
-
-body, div, a, input, select, button, textarea {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	color: #333333;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Doppio One', sans-serif;
-	font-weight: 400;
-}
-
-code {
-	font-weight: bold;
-}
 
 pre code {
 	font-weight: normal;
@@ -60,76 +33,20 @@ img{
     	//padding: 3px;
 }
 
-a img {
-	border: 0px;
-}
-
-h1 {
-	font-size: 30px;
-	font-weight: normal;
-}
-
-
 #layout {
 	/width: 90%;
 	margin: auto;
 	text-align: left;
 }
 
-#heading {
-	margin: 20px 0px 15px 0px;
-	position: relative;
-	padding: 0px 0px 15px 0px;
-	border-bottom: 1px solid #eee;
-}
-
-#logo {
-	float: left;
-	font-size: 40px;
-}
-
-#links a {
-	color: #D23636;
-}
-
-#logo a {
-    font-size: 40px;
-    color: #D23636;
-    text-decoration: none;
-    font-family: "Doppio One";
-}
-
-
-#links {
-	float: right;
-	margin: 20px 0 0 0;
-	color: #eee;
-}
-
-#links img {
-
-	border-radius: 0px;
-    padding: 0px;
-    margin-bottom: 10px;
-}
-
 #content {
-    margin: 0px 8% 0px ;
-}
-
-#footer {
-	margin: 30px 0px 0px 0px;
-	padding: 10px 0px 10px 0px;
-	border-top: 1px solid #dddddd;
-	text-align: center;
-	font-size: 13px;
-	background: #fff;
+    margin: 0px 4% 0px ;
 }
 
 #posts ul {
 	list-style:none; 
 	margin: auto;
-	padding: 0px;
+	padding-left: 90px;
 }
 
 #posts ul li {
