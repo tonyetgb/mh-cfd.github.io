@@ -56,8 +56,7 @@ a:hover {
 
 img{
 	border: 0px;
-	box-shadow: 0 0px 5px #cccccc;
-	border-radius: 5px;
+	border-radius: 0px;
     	//padding: 3px;
 }
 
@@ -153,9 +152,6 @@ h1 {
 
 .post-image{
 	width: 250px;
-	box-shadow: 0 0px 0px #cccccc;
-	border-radius: 0px;
-    	//margin: 10px 0px 10px 0px;
 }
 
 .post-date {
@@ -165,11 +161,8 @@ h1 {
 
 .post-content {
 	margin-top: 10px;
-	font-size: 13px;
-
 	padding: 20px 30px;
 	background: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/entry-meta-shadow.png') no-repeat scroll center top #FBFBFB;
-	border-radius: 0px 0px 3px 3px;
 }
 
 #side-bar {
