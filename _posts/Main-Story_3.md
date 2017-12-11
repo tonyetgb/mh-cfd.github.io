@@ -42,7 +42,7 @@ In other words, the Gupta family’s Twitter army left a digital footprint.
 
 In addition, says Le Roux, his suspicions were piqued when the accounts carried names like Bongi Vorster and Dlamini Louw. While African-Afrikaans name and surname combinations are known, they are rare — but were very common in the fake army.
 
->“It was as if someone had been given a spreadsheet of South African names and surnames which were then automatically generating combinations,” he says.
+>It was as if someone had been given a spreadsheet of South African names and surnames which were then automatically generating combinations.
 
 Then Le Roux sent the fake accounts messages in several South African languages other than English, and they couldn’t answer.
 
