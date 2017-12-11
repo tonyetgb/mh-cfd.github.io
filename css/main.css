@@ -177,7 +177,6 @@ only screen and (max-device-width:1024px),
 only screen and (max-width: 1024px) {
 
 	#posts ul li {
-		width: 265px;
 	}
 
 }
