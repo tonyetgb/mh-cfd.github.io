@@ -40,7 +40,6 @@ img{
 }
 
 #content {
-    margin: 0px 4% 0px ;
 }
 
 #posts ul {
@@ -48,8 +47,6 @@ img{
 }
 
 #posts ul li {
-    background: #fff;
-    background: none repeat scroll 0% 0% #FFF;
 }
 
 #posts ul li img {
