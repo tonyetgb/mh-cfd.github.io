@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Main Story
+title: Story 1
 category: blog
 tags: [Test, Ipsum, Markdown, Portfolio]
-summary: Here is a summary of the post
+summary: UK PR firm Bell Pottinger’s role...
 image: /img/blog/Thumb-2.jpg
 ---
 

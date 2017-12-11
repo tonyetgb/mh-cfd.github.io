@@ -120,19 +120,8 @@
         <h3>STORIES</h3>
       </header>
     </div>
-    <div id="news" class="row">
-      <!--LOADING FEATURED SHEET-->
-    </div>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-  </div>
 
-		<div id='content'>
+	<div id='content'>
 			<div id='posts'>
 				<ul>
 					{% for post in site.categories.blog %}
@@ -152,6 +141,9 @@
 			</div>
 			<div style='clear:both'></div>
 		</div>
+  </div>
+
+	
 
   <!--VIDEO-->
   <div class='container' id="news-ticker-pad">
