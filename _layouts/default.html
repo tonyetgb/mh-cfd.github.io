@@ -122,26 +122,24 @@
     </div>
 
 	<div id='content'>
-			<div id='posts'>
-				<ul>
-					{% for post in site.categories.blog %}
-						<li class='post'>
-							<div class="top-story">
-								<h1 class="featured-video">
-									<a href='{{post.url}}'>{{post.title}}</a>
-								</h1>
-								{% if post.image %}
-									<a href='{{post.url}}'><img class='img-responsive' src="{{post.image}}" /></a>
-								{% endif %}
-								<p class='lead-video'>{{post.summary}}</p>
-								<a href='{{"post.url"}}' class="button button-circle">Read More</a>
-							</div>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
-			<div style='clear:both'></div>
+		<div id='posts'>
+			<ul>
+				{% for post in site.categories.blog %}
+						<div class="top-story">
+							<h1 class="featured-video">
+								<a href='{{post.url}}'>{{post.title}}</a>
+							</h1>
+							{% if post.image %}
+								<a href='{{post.url}}'><img class='img-responsive' src="{{post.image}}" /></a>
+							{% endif %}
+							<p class='lead-video'>{{post.summary}}</p>
+							<a href='{{post.url}}' class="button button-circle">Read More</a>
+						</div>
+				{% endfor %}
+			</ul>
 		</div>
+		<div style='clear:both'></div>
+	</div>
   </div>
 
 	
